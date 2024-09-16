@@ -23,7 +23,7 @@
     <groupId>org.mybatis</groupId>
     <artifactId>mybatis-parent</artifactId>
     <version>38</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <groupId>org.mybatis</groupId>
@@ -61,12 +61,12 @@
     <dependency>
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis</artifactId>
-      <version>3.5.13</version>
+      <version>3.5.16</version>
     </dependency>
     <dependency>
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis-spring</artifactId>
-      <version>2.1.1</version>
+      <version>2.1.2</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
@@ -86,7 +86,7 @@
     <dependency>
       <groupId>net.sourceforge.stripes</groupId>
       <artifactId>stripes</artifactId>
-      <version>1.6.0</version>
+      <version>1.7.0-async-beta</version>
       <exclusions>
         <exclusion>
           <groupId>commons-logging</groupId>
@@ -123,12 +123,12 @@
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>2.0.7</version>
+      <version>2.0.16</version>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-simple</artifactId>
-      <version>2.0.7</version>
+      <version>2.0.16</version>
     </dependency>
     <dependency>
       <groupId>org.hsqldb</groupId>
@@ -303,17 +303,17 @@
   <properties>
     <cargo.maven.containerId>tomcat${tomcat.major-version}x</cargo.maven.containerId>
     <cargo.maven.containerUrl>https://archive.apache.org/dist/tomcat/tomcat-${tomcat.major-version}/v${tomcat.version}/bin/apache-tomcat-${tomcat.version}.zip</cargo.maven.containerUrl>
-    <tomcat.major-version />
-    <tomcat.version />
+    <tomcat.major-version/>
+    <tomcat.version/>
 
     <surefire.version>3.0.0-M7</surefire.version>
     <cargo-maven3-plugin.version>1.10.9</cargo-maven3-plugin.version>
     <clirr.comparisonVersion>6.0.2</clirr.comparisonVersion>
 
-    <spring.version>5.3.29</spring.version>
+    <spring.version>5.3.39</spring.version>
     <assertj.version>3.24.2</assertj.version>
     <mockito.version>5.5.0</mockito.version>
-    <hsqldb.version>2.7.2</hsqldb.version>
+    <hsqldb.version>2.7.3</hsqldb.version>
     <module.name>org.mybatis.jpetstore</module.name>
 
     <!-- Reproducible Builds -->
